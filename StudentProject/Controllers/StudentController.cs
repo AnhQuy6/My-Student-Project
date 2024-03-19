@@ -19,7 +19,7 @@ namespace StudentProject.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IStudentRepository _studentRepository;
-        private readonly StudentDB _studentDB;
+        private RedirectHttpResult _redirect;
         public StudentController(IMapper mapper, IStudentRepository studentRepository) 
         {
             _mapper = mapper;
