@@ -1,0 +1,277 @@
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\appsettings.Development.json
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\appsettings.json
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\StudentProject.exe
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\StudentProject.deps.json
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\StudentProject.runtimeconfig.json
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\StudentProject.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\StudentProject.pdb
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.csproj.AssemblyReference.cache
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.AssemblyInfoInputs.cache
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.AssemblyInfo.cs
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.csproj.CoreCompileInputs.cache
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.MvcApplicationPartsAssemblyInfo.cs
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.MvcApplicationPartsAssemblyInfo.cache
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.sourcelink.json
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets.build.json
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets.development.json
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets\msbuild.StudentProject.Microsoft.AspNetCore.StaticWebAssets.props
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentProject.props
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentProject.props
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentProject.props
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets.pack.json
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\scopedcss\bundle\StudentProject.styles.css
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.csproj.CopyComplete
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.dll
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\refint\StudentProject.dll
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.pdb
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.genruntimeconfig.cache
+E:\FileC#\StudentProject\StudentProject\obj\Debug\net8.0\ref\StudentProject.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Azure.Core.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Azure.Identity.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Humanizer.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.CodeDom.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Memory.Data.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\AutoMapper.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\appsettings.Development.json
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\appsettings.json
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\StudentProject.exe
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\StudentProject.deps.json
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\StudentProject.runtimeconfig.json
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\StudentProject.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\StudentProject.pdb
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\AutoMapper.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Azure.Core.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Azure.Identity.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Humanizer.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.CodeDom.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Github Project\StudentProject\StudentProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.csproj.AssemblyReference.cache
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.AssemblyInfoInputs.cache
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.AssemblyInfo.cs
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.csproj.CoreCompileInputs.cache
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.MvcApplicationPartsAssemblyInfo.cs
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.MvcApplicationPartsAssemblyInfo.cache
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets.build.json
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets.development.json
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets\msbuild.StudentProject.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentProject.props
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentProject.props
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentProject.props
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\scopedcss\bundle\StudentProject.styles.css
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.csproj.CopyComplete
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.dll
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\refint\StudentProject.dll
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.pdb
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.genruntimeconfig.cache
+E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\ref\StudentProject.dll
