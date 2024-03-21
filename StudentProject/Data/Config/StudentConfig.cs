@@ -9,6 +9,7 @@ namespace StudentProject.Data.Config
         {
             builder.ToTable("Students");
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.Id).HasMaxLength(20).IsRequired();
             builder.Property(x => x.Name).IsRequired().HasMaxLength(30);
             builder.Property(x => x.Phone).IsRequired().HasMaxLength(30);
@@ -43,6 +44,10 @@ namespace StudentProject.Data.Config
                 }
             });
 
+            builder.HasOne(x => x.Department)
+                .WithMany(n => n.Students)
+                .HasForeignKey(n => n.DepartmentId)
+                .HasConstraintName("FK_Students_Department");
         }
     }
 }

@@ -32,14 +32,17 @@ namespace StudentProject.Data.Repository
             return await _studentDB.Students.ToListAsync();
         }
 
-        public async Task<Student> GetStudentByIdAsync(int id)
+        public async Task<Student> GetStudentByIdAsync(int id, bool useNoTracking = false)
         {
-            return await _studentDB.Students.Where(s => s.Id == id).FirstOrDefaultAsync();
+            if (useNoTracking)
+                return await _studentDB.Students.AsNoTracking().Where(s => s.Id == id).FirstOrDefaultAsync();
+            else
+                return await _studentDB.Students.Where(s => s.Id == id).FirstOrDefaultAsync();
         }
 
         public async Task<int> UpdateStudentAsync(Student student)
         {
-           _studentDB.Students.Update(student);
+            _studentDB.Students.Update(student);
             await _studentDB.SaveChangesAsync();
             return student.Id;
         }

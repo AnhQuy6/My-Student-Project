@@ -66,16 +66,16 @@ namespace StudentProject.Controllers
         [Route("Update")]
         public async Task<ActionResult<Student>> UpdateStudent([FromBody] StudentDTO UpdateS)
         {
-            if (UpdateS == null)
+            if (UpdateS == null || UpdateS.Id <= 0)
             {
                 return BadRequest();
             }
-            var student = await _studentRepository.GetStudentByIdAsync(UpdateS.Id);
+            var student = await _studentRepository.GetStudentByIdAsync(UpdateS.Id, true);
             if (student == null)
             {
                 return NotFound("Khong tim thay du lieu sinh vien");
             }
-            Student Q = _mapper.Map<Student>(UpdateS);
+            var Q = _mapper.Map<Student>(UpdateS);
             await _studentRepository.UpdateStudentAsync(Q);
             return NoContent();
         }
