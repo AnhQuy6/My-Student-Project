@@ -18,8 +18,9 @@ namespace StudentProject.Controllers
     public class StudentController : ControllerBase
     {
         private readonly IMapper _mapper;
-        private readonly IStudentRepository _studentRepository;
-        public StudentController(IMapper mapper, IStudentRepository studentRepository) 
+        //private readonly IStudentRepository _studentRepository;
+        private readonly ICollegeRepository<Student> _studentRepository;
+        public StudentController(IMapper mapper, ICollegeRepository<Student> studentRepository) 
         {
             _mapper = mapper;
             _studentRepository = studentRepository;
@@ -41,7 +42,7 @@ namespace StudentProject.Controllers
             {
                 return BadRequest("Vui long nhap id > 1");
             }
-            var q = await _studentRepository.GetStudentByIdAsync(id);
+            var q = await _studentRepository.GetStudentByIdAsync(student => student.Id == id);
             if (q == null)
             {
                 return NotFound($"Khong tim thay sinh vien co id la {id} trong Database");
@@ -58,24 +59,26 @@ namespace StudentProject.Controllers
                 return BadRequest("Khong duoc de thong tin trong");
             }
             Student S = _mapper.Map<Student>(studentDTO);
-            await _studentRepository.CreateStudentAsync(S);
+            var studentAfterCreation =  await _studentRepository.CreateStudentAsync(S);
+
+            studentDTO.Id = studentAfterCreation.Id;
             
             return CreatedAtRoute("GetId", new { Id = studentDTO.Id }, S);
         }
         [HttpPut]
         [Route("Update")]
-        public async Task<ActionResult<Student>> UpdateStudent([FromBody] StudentDTO UpdateS)
+        public async Task<ActionResult<Student>> UpdateStudent([FromBody] StudentDTO studentDTO)
         {
-            if (UpdateS == null || UpdateS.Id <= 0)
+            if (studentDTO == null || studentDTO.Id <= 0)
             {
                 return BadRequest();
             }
-            var student = await _studentRepository.GetStudentByIdAsync(UpdateS.Id, true);
+            var student = await _studentRepository.GetStudentByIdAsync(student => student.Id == studentDTO.Id, true);
             if (student == null)
             {
                 return NotFound("Khong tim thay du lieu sinh vien");
             }
-            var Q = _mapper.Map<Student>(UpdateS);
+            var Q = _mapper.Map<Student>(studentDTO);
             await _studentRepository.UpdateStudentAsync(Q);
             return NoContent();
         }
@@ -88,7 +91,7 @@ namespace StudentProject.Controllers
             {
                 return BadRequest("Vui long nhap Id >= 1");
             }
-            var q = await _studentRepository.GetStudentByIdAsync(id);
+            var q = await _studentRepository.GetStudentByIdAsync(student => student.Id == id);
             if (q == null)
             {
                 return NotFound($"Khong tim thay sinh vien co id la {id} trong Database");

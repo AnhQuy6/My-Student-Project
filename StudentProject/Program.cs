@@ -13,7 +13,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
-builder.Services.AddTransient<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped(typeof(ICollegeRepository<>), typeof(CollegeRepository<>));
 builder.Services.AddDbContext<StudentDB>(db =>
 {
     db.UseSqlServer(builder.Configuration.GetConnectionString("MyConnect"));

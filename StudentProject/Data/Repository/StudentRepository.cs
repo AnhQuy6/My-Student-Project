@@ -5,45 +5,45 @@ namespace StudentProject.Data.Repository
 {
     public class StudentRepository : IStudentRepository
     {
-        private readonly StudentDB _studentDB;
-        public StudentRepository(StudentDB studentDB)
+        private readonly StudentDB _dbContext;
+        public StudentRepository(StudentDB dbContext)
         {
 
-            _studentDB = studentDB;
+            _dbContext = dbContext;
 
         }
         public async Task<int> CreateStudentAsync(Student student)
         {
-            _studentDB.Students.Add(student);
-            await _studentDB.SaveChangesAsync();
+            _dbContext.Students.Add(student);
+            await _dbContext.SaveChangesAsync();
             return student.Id;
         }
 
         public async Task<bool> DeleteStudentAsync(Student student)
         {
             
-            _studentDB.Students.Remove(student);
-            await _studentDB.SaveChangesAsync();
+            _dbContext.Students.Remove(student);
+            await _dbContext.SaveChangesAsync();
             return true;
         }
 
         public async Task<List<Student>> GetAllAsync()
         {
-            return await _studentDB.Students.ToListAsync();
+            return await _dbContext.Students.ToListAsync();
         }
 
         public async Task<Student> GetStudentByIdAsync(int id, bool useNoTracking = false)
         {
             if (useNoTracking)
-                return await _studentDB.Students.AsNoTracking().Where(s => s.Id == id).FirstOrDefaultAsync();
+                return await _dbContext.Students.AsNoTracking().Where(s => s.Id == id).FirstOrDefaultAsync();
             else
-                return await _studentDB.Students.Where(s => s.Id == id).FirstOrDefaultAsync();
+                return await _dbContext.Students.Where(s => s.Id == id).FirstOrDefaultAsync();
         }
 
         public async Task<int> UpdateStudentAsync(Student student)
         {
-            _studentDB.Students.Update(student);
-            await _studentDB.SaveChangesAsync();
+            _dbContext.Students.Update(student);
+            await _dbContext.SaveChangesAsync();
             return student.Id;
         }
     }
