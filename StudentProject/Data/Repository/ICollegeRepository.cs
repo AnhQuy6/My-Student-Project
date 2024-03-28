@@ -8,6 +8,6 @@ namespace StudentProject.Data.Repository
         Task<T> GetStudentByIdAsync(Expression<Func<T, bool>> filter, bool useNoTracking = false);
         Task<T> CreateStudentAsync(T dbRecord);
         Task<T> UpdateStudentAsync(T dbRecord);
-        Task<T> DeleteStudentAsync(T dbRecord);
+        Task<bool> DeleteStudentAsync(T dbRecord);
     }
 }

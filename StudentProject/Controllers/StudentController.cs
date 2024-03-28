@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using StudentProject.Data.Repository;
+using Microsoft.AspNetCore.Cors;
 
 namespace StudentProject.Controllers
 {
@@ -29,6 +30,7 @@ namespace StudentProject.Controllers
 
         [HttpGet]
         [Route("All")]
+        [EnableCors(PolicyName = "AllowOnlyLocalHost")]
         public async Task<ActionResult<IEnumerable<StudentDTO>>> GetAllStudentAsync() {
             var q = await _studentRepository.GetAllAsync();
             var studentDTOs = _mapper.Map<List<StudentDTO>>(q);
