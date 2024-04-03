@@ -275,3 +275,4 @@ E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\refint\StudentP
 E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.pdb
 E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\StudentProject.genruntimeconfig.cache
 E:\Github Project\StudentProject\StudentProject\obj\Debug\net8.0\ref\StudentProject.dll
+E:\FileC#\StudentProject\StudentProject\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

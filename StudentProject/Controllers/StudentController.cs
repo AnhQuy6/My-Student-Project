@@ -11,11 +11,14 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using StudentProject.Data.Repository;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Authorization;
 
 namespace StudentProject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[EnableCors(PolicyName = "AllowAll")]
+    //[Authorize(Roles = "Superadmin")]
     public class StudentController : ControllerBase
     {
         private readonly IMapper _mapper;
@@ -27,10 +30,10 @@ namespace StudentProject.Controllers
             _studentRepository = studentRepository;
             
         }
-
+        
         [HttpGet]
         [Route("All")]
-        [EnableCors(PolicyName = "AllowOnlyLocalHost")]
+        //[EnableCors(PolicyName = "AllowOnlyLocalHost")]
         public async Task<ActionResult<IEnumerable<StudentDTO>>> GetAllStudentAsync() {
             var q = await _studentRepository.GetAllAsync();
             var studentDTOs = _mapper.Map<List<StudentDTO>>(q);
