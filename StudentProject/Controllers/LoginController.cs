@@ -11,6 +11,7 @@ namespace StudentProject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize(AuthenticationSchemes = "LoginForLocalUsers", Roles = "Superadmin,Admin")]
     [AllowAnonymous]
     public class LoginController : ControllerBase
     {
@@ -19,21 +20,44 @@ namespace StudentProject.Controllers
         {
             _configuration = configuration;
         }
+        
         [HttpPost]
         public ActionResult Login(LoginDTO model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return BadRequest("Please provide username and password");
             }
             LoginResponseDTO response = new() { Username = model.Username };
-            if(model.Username == "Quy" && model.Password == "1212")
+            string issuer = string.Empty;
+            string audience = string.Empty;
+            byte[] key = null;
+            if (model.Policy == "Local")
             {
-                var key = Encoding.ASCII.GetBytes(_configuration.GetValue<String>("JWTSecret"));
+                issuer = _configuration.GetValue<String>("LocalIssuer");
+                audience = _configuration.GetValue<String>("LocalAudience");
+                key = Encoding.ASCII.GetBytes(_configuration.GetValue<String>("JWTSecretForLocal"));
+            }
+            else if (model.Policy == "Microsoft")
+            {
+                issuer = _configuration.GetValue<String>("MicrosoftIssuer");
+                audience = _configuration.GetValue<String>("MicrosoftAudience");
+                key = Encoding.ASCII.GetBytes(_configuration.GetValue<String>("JWTSecretForMicrosoft"));
+            }
+            else if (model.Policy == "Google")
+            {
+                issuer = _configuration.GetValue<String>("GoogleIssuer");
+                audience = _configuration.GetValue<String>("GoogleAudience");
+                key = Encoding.ASCII.GetBytes(_configuration.GetValue<String>("JWTSecretForGoogle"));
+            }
+            if (model.Username == "quygagay" && model.Password == "Anhquy123")
+            { 
                 var tokenHandler = new JwtSecurityTokenHandler();
                 var tokenDescriptor = new SecurityTokenDescriptor()
                 {
-                    Subject = new System.Security.Claims.ClaimsIdentity(new Claim[]
+                    Issuer = issuer,
+                    Audience = audience,
+                    Subject = new ClaimsIdentity(new Claim[]
                     {
                         //Username
                         new Claim(ClaimTypes.Name, model.Username),
