@@ -10,7 +10,7 @@ using StudentProject.Data;
 
 namespace StudentProject.Migrations
 {
-    [DbContext(typeof(StudentDB))]
+    [DbContext(typeof(CollegeDBContext))]
     [Migration("20240229153751_A")]
     partial class A
     {

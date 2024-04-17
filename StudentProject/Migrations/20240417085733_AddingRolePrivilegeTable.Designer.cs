@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StudentProject.Data;
 
@@ -11,9 +12,11 @@ using StudentProject.Data;
 namespace StudentProject.Migrations
 {
     [DbContext(typeof(CollegeDBContext))]
-    partial class StudentDBModelSnapshot : ModelSnapshot
+    [Migration("20240417085733_AddingRolePrivilegeTable")]
+    partial class AddingRolePrivilegeTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -235,30 +238,6 @@ namespace StudentProject.Migrations
                     b.ToTable("Users", (string)null);
                 });
 
-            modelBuilder.Entity("StudentProject.Data.UserRoleMapping", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("RoleId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("RoleId");
-
-                    b.HasIndex(new[] { "UserId", "RoleId" }, "UK_UserRoleMapping")
-                        .IsUnique();
-
-                    b.ToTable("UserRoleMappings", (string)null);
-                });
-
             modelBuilder.Entity("StudentProject.Data.RolePrivilege", b =>
                 {
                     b.HasOne("StudentProject.Data.Role", "Role")
@@ -281,27 +260,6 @@ namespace StudentProject.Migrations
                     b.Navigation("Department");
                 });
 
-            modelBuilder.Entity("StudentProject.Data.UserRoleMapping", b =>
-                {
-                    b.HasOne("StudentProject.Data.Role", "Role")
-                        .WithMany("UserRoleMappings")
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("Fk_UserRoleMapping_Role");
-
-                    b.HasOne("StudentProject.Data.User", "User")
-                        .WithMany("UserRoleMappings")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("Fk_UserRoleMapping_User");
-
-                    b.Navigation("Role");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("StudentProject.Data.Department", b =>
                 {
                     b.Navigation("Students");
@@ -310,13 +268,6 @@ namespace StudentProject.Migrations
             modelBuilder.Entity("StudentProject.Data.Role", b =>
                 {
                     b.Navigation("Roleprivileges");
-
-                    b.Navigation("UserRoleMappings");
-                });
-
-            modelBuilder.Entity("StudentProject.Data.User", b =>
-                {
-                    b.Navigation("UserRoleMappings");
                 });
 #pragma warning restore 612, 618
         }

@@ -11,7 +11,7 @@ using StudentProject.Data;
 
 namespace StudentProject.Migrations
 {
-    [DbContext(typeof(StudentDB))]
+    [DbContext(typeof(CollegeDBContext))]
     [Migration("20240321135403_CreateTableDepartment")]
     partial class CreateTableDepartment
     {

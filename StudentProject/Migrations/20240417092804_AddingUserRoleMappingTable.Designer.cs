@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StudentProject.Data;
 
@@ -11,9 +12,11 @@ using StudentProject.Data;
 namespace StudentProject.Migrations
 {
     [DbContext(typeof(CollegeDBContext))]
-    partial class StudentDBModelSnapshot : ModelSnapshot
+    [Migration("20240417092804_AddingUserRoleMappingTable")]
+    partial class AddingUserRoleMappingTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

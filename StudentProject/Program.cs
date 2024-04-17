@@ -52,7 +52,7 @@ builder.Services.AddSwaggerGen(options =>
 
 //builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped(typeof(ICollegeRepository<>), typeof(CollegeRepository<>));
-builder.Services.AddDbContext<StudentDB>(db =>
+builder.Services.AddDbContext<CollegeDBContext>(db =>
 {
     db.UseSqlServer(builder.Configuration.GetConnectionString("MyConnect"));
 });

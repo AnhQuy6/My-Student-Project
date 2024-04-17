@@ -6,9 +6,9 @@ namespace StudentProject.Data.Repository
 {
     public class CollegeRepository<T> : ICollegeRepository<T> where T : class
     {
-        private readonly StudentDB _dbContext;
+        private readonly CollegeDBContext _dbContext;
         private DbSet<T> _dbSet;
-        public CollegeRepository(StudentDB dbContext)
+        public CollegeRepository(CollegeDBContext dbContext)
         {
             _dbContext = dbContext;      
             _dbSet = _dbContext.Set<T>();
